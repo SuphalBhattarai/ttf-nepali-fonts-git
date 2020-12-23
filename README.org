@@ -1,0 +1,47 @@
+#+TITLE: Readme
+#+DESCRIPTION: Instruction of fonts for linux
+
+* Installations
+Arch users can use ttf-nepali-fonts-git package from the aur using any aur helper or use the following commands (base-devel package must be installed )
+
+#+begin_src shell
+git clone https://github.com/SuphalBhattarai/ttf-nepali-fonts-git
+makepkg -si
+#+end_src
+
+Debian or ubuntu users can use following commands to install (Arch users without base-devel package can use following commands )
+#+begin_src shell
+git clone https://github.com/SuphalBhattarai/ttf-nepali-fonts-git
+sudo cp -r fonts/* /usr/share/fonts/TTF/
+fc-cache -f
+#+end_src
+
+* LIST OF FONTS
+1. agra.ttf
+2. amaa.ttf
+3. arjun.ttf
+4. devnagari_bold.ttf
+5. devnagari_new.ttf
+6. HIMALAYA.TTF
+7. himalaya.ttf
+8. himali.ttf
+9. HIMALI_4.TTF
+10. KANCHAN.TTF
+11. kantipur.ttf
+12. mangal.ttf
+13. Mukta-Bold.ttf
+14. Mukta-ExtraBold.ttf
+15. Mukta-ExtraLight.ttf
+16. Mukta-Light.ttf
+17. Mukta-Medium.ttf
+18. Mukta-Regular.ttf
+19. Mukta-SemiBold.ttf
+20. nepali.ttf
+21. pcsnepali.ttf
+22. preeti.ttf
+23. Preeti Heavy Normal.ttf
+24. ritu.ttf
+25. sagarmatha.ttf
+
+* Unicode and Preeti
+There is also a site-code for converting text from preeti to unicode which can help to put nepali text in applications that only support unicode To use this tool you can just open the index.html file.

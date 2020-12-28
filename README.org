@@ -16,6 +16,8 @@ sudo cp -r fonts/* /usr/share/fonts/TTF/
 fc-cache -f
 #+end_src
 
+You can remove the folder after installation.
+
 * LIST OF FONTS
 1. agra.ttf
 2. amaa.ttf
